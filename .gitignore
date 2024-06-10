@@ -1,0 +1,40 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Output of 'npm pack'
+*.tgz
+
+# Build output
+dist/
+build/
+
+# Dotenv environment variables file
+.env
+
+# MacOS
+.DS_Store
+
+# IDE/Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
