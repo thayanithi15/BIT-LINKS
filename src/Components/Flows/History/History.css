@@ -1,0 +1,145 @@
+.history-container {
+    /* height: 500px; */
+    overflow-y: auto; /* Enable vertical scrolling */
+    /* padding: 20px; */
+    /* border: 1px solid #ccc; */
+    /* /* background-color: #f9f9f9; */
+    margin: 2.9% 0% 0% 12%;
+    /* padding: 3%; */
+    background-color: aquamarine;
+    height: 75%;
+    width: 80%;
+    padding: 20px;
+  }
+  
+  /* Custom scrollbar */
+  .history-container::-webkit-scrollbar {
+    width: 5px; /* Set width of the scrollbar */
+  }
+  
+  .history-container::-webkit-scrollbar-track {
+    background: #E7EEF4; /* Background color of the track */
+    border-radius: 10px;
+  }
+  
+  .history-container::-webkit-scrollbar-thumb {
+    background: #8E9498; /* Color of the scrollbar handle */
+    border-radius: 10px; /* Round corners */
+  }
+  
+  .history-container::-webkit-scrollbar-thumb:hover {
+    background: #83878b; /* Color when hovered */
+    /* E7EEF4 */
+  }
+  
+  .call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .call-title {
+    font-weight: bold;
+  }
+  
+  .date {
+    font-style: italic;
+  }
+  
+  .file-container,
+  .agent-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .fileimg,
+  .agentimg {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .file-content,
+  .agent-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .step-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+
+
+.MuiStepConnector-line {
+  border-left-style: dashed !important;
+  margin-bottom: 2%;
+  margin-top: 0%;
+}
+
+.MuiStepConnector-lineVertical {
+  /* border-left-style: dotted !important; */
+}
+
+.MuiStepContent-root {
+  /* padding-bottom: 54px; */
+}
+
+.css-14yr603-MuiStepContent-root{
+  border-left-style: dashed !important;
+}
+
+.step-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.step-icon-start{
+  /* display: none; */
+  margin-left: 40%;
+  width: 14px;
+  height: 14px;
+}
+
+.history-container {
+  padding: 20px;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-title {
+  font-weight: bold;
+}
+
+.date {
+  font-size: 0.8em;
+  color: gray;
+}
+
+.file-container,
+.agent-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.fileimg,
+.agentimg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.file-content,
+.agent-content {
+  font-size: 0.9em;
+}
+
+.css-14sza3e-MuiStepLabel-root {
+  padding: 0%;
+}

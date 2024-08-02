@@ -1,21 +1,16 @@
-import React, { useState } from 'react';
-import ScheduleNetwork from './ScheduleNetwork';
-import Networks from './Networks';
-import './styles.css';
+import React, { useState } from "react";
+import ScheduleNetwork from "./ScheduleNetwork";
 
-function ParentComponent() {
-  const [view, setView] = useState(false);
+export default function ParentComponent() {
+  const [viewPerson, setViewPerson] = useState(false);
 
-  const handleViewToggle = (newView) => {
-    setView(newView);
+  const onViewPersonToggle = (newViewPerson) => {
+    setViewPerson(newViewPerson);
   };
 
   return (
     <div>
-      <ScheduleNetwork onViewToggle={handleViewToggle} />
-      <Networks view={view} />
+      <ScheduleNetwork onViewPersonToggle={onViewPersonToggle} />
     </div>
   );
 }
-
-export default ParentComponent;

@@ -1,0 +1,102 @@
+
+.scr-btn2{
+  height: 48px;
+  width: 157px;
+  border-radius: 12px;
+  background-color: #E5E9F2;
+  border: 0.5px solid #A4B4D4;
+}
+.scr-btn1{
+  height: 48px;
+  width: 157px;
+  border-radius: 12px;
+  background-color: #2867B2;
+  color:  #E5E9F2;
+  border: none;
+}
+.scr-btn3{
+  color:  #E5E9F2;
+  background-color: #2867B2;
+  width: 26px;
+  height: 26px;
+  border: none;
+  margin-top: 0.5%;
+  border-radius: 5px;
+}
+.btn-t{
+  margin-left: 5%;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 1%;
+}
+/* Define the keyframes for the background color change */
+@keyframes backgroundChange {
+  0% {
+    background-position: 10% 0;
+    background-color: #E5E9F2;
+  }
+  100% {
+    background-position: 60% 0;
+    background-color: #7e7e7e; 
+  
+  }
+}
+
+/* Style for the button */
+.scr-btn2 {
+  height: 48px;
+  width: 157px;
+  border-radius: 12px;
+  background-color: #E5E9F2;
+  border: 0.5px solid #A4B4D4;
+  background-size: 200% 100%;
+  transition: background-position 2s ease-in-out;
+  background-image: linear-gradient(to right, #FEFEFF 50%, #b6b6b6 50%);
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Style for the button */
+.scr-btn2 {
+  position: relative;
+  height: 48px;
+  width: 157px;
+  border-radius: 12px;
+  background-color: #E5E9F2;
+  border: 0.5px solid #A4B4D4;
+  overflow: hidden; /* Ensure the pseudo-element stays within the button */
+  transition: background-color 0.5s ease-in-out;
+}
+
+.scr-btn2 {
+  position: relative;
+}
+
+.scr-btn2::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  background-color: #2867B2;
+  opacity: 0.2;
+  width: 2%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  inset: 0;
+  margin: auto;
+  transition: transform 600ms;
+}
+
+.scr-btn2:hover::before {
+  transform: scale(40);
+}
+
+.scr-btn2:hover {
+  background-color: gray;
+  transition: ease-out 2s;
+}
+
+#header-bottom-buttons {
+  height: 35px;
+  display: flex;
+  align-self: center;
+  align-items: center;
+}

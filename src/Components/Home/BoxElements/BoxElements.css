@@ -1,0 +1,46 @@
+
+.box-elem{
+  display: flexbox;
+  width: 100px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.r1{
+  display: flex;
+  margin-bottom: 10px;
+}
+.white{
+  height: 89px;
+  width: 115px;
+  background-color: #FCFDFE;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  margin-inline: 20px;
+}
+.el{
+  height: 30px;
+  width: 30px;
+  margin-top: 12px;
+  margin-right: 8px;
+  margin-left: 5px;
+}
+
+.col1{
+  display: flex;
+  width: 115px;
+}
+.grey{
+  color:#64696C ;
+}
+.orange{
+  color: #ED8F03;
+}
+.purple{
+  color: #6D2ED1;
+}
+.green{
+  color:#0E7C3A ;
+}
+.down{
+  color: #2867B2;
+}

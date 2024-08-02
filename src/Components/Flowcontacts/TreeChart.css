@@ -1,0 +1,96 @@
+.ranking-tree{
+  width: 756px;
+  /* background-color: #FEFEFF; */
+  height: 779px;
+}
+
+.node {
+    padding: 5px;
+    /* border-image: url('Star_1.png'); */
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    /* background-color: #f9b694; */
+    font-family: "Open Sans", sans-serif;
+    border-radius: 50%;
+    color: black;
+    border: 1px red;
+    /* background-color: aqua; */
+ 
+  }
+
+  .node-title{
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 15%;
+    color: black;
+    background-color: #F9B494;
+  }
+  .contact-tree{
+    width: 500px;
+    /* color: #f9b694; */
+  }
+  
+  .child {
+    margin-top: 2px;
+  }
+  
+  .profile {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: lightgray;
+   
+    padding: -10px;
+    
+    background-position: center;
+    background-size: contain;
+    background-position: center;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  
+  }
+  
+  .node.child {
+    position: relative;
+  }
+  
+  .profile {
+    position: relative;
+  }
+  
+  
+  .corner-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 28px; 
+    height: 28px; 
+    margin-bottom: -8px;
+  }
+  
+  .border-image-container {
+    position: relative; /* Make sure it contains the border image and profile */
+    display: inline-block;
+  }
+  
+  .border-image {
+    position: absolute;
+    top: -5px; /* Adjust as needed */
+    left: -40px; /* Adjust as needed */
+    width: 80px; /* Adjust to fit the image size */
+    height: 80px; /* Adjust to fit the image size */
+    z-index: -1; /* Ensures it stays behind the profile */
+  }
+  .dot{
+    height:7px;
+    width:7px;
+    margin-left: 30px;
+    border-radius: 50%;
+   background-color: orange;
+  }
